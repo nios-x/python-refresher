@@ -60,16 +60,35 @@
 #     f.write("X")
 
 
-try:
-    x = int(input("Enter a number: "))
-    print(10/x)
-except ValueError:
-    print("Please enter a valid number.")
-except ZeroDivisionError:
-    print("Cannot divide by zero.")
-except:
-    print("An unexpected error occurred.")
-else:
-    print("Division successful.")
-finally:
-    print("This will always execute.")
+# try:
+#     x = int(input("Enter a number: "))
+#     print(10/x)
+# except ValueError:
+#     print("Please enter a valid number.")
+# except ZeroDivisionError:
+#     print("Cannot divide by zero.")
+# except:
+#     print("An unexpected error occurred.")
+# else:
+#     print("Division successful.")
+# finally:
+#     print("This will always execute.")
+
+
+# function1 = lambda x: x*5
+# print(function1(10))
+
+# print(locals())
+
+# def func(d):
+#     """its docstring"""
+#     return d * 2
+
+# print(func.__doc__)
+
+# if(__name__ == "__main__"):
+#     print("This code is running as a script.")
+
+
+import wrongmaths
+print(wrongmaths.maths.add(5, 1))
