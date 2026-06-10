@@ -90,5 +90,5 @@
 #     print("This code is running as a script.")
 
 
-import wrongmaths
-print(wrongmaths.maths.add(5, 1))
+# import wrongmaths
+# print(wrongmaths.maths.add(5, 1))
